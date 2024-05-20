@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en" data-bs-theme="dark">
+<html lang="es" data-bs-theme="dark">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proyecto Películas G8</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    
     <!-- <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css"> -->
   </head>
   <body>
@@ -31,10 +32,9 @@
                 <a class="nav-link" href="#series">Series</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-light" type="submit">Buscar</button>
-            </form>
+            
+            <button onclick="location.href='registro/registro.html'" class="btn btn-outline-light mx-3" type="submit">Registrarse</button>
+            <button class="btn btn-outline-light mx-3" type="submit">Iniciar Sesión</button>
           </div>
         </div>
     </nav>
@@ -81,6 +81,22 @@
 
     <!-- <hr class="border border-danger border-2 opacity-50"> -->
     <!-- <hr class="border border-primary-subtle border-3 opacity-75"> -->
+
+    <!-- Buscador -->
+    <div class="row my-4 ">
+      <hr class="border border-light border-2 opacity-75 w-75 mx-auto my-4">
+    </div>
+
+    <div class="row g-0 justify-content-center align-content-center">
+      <div class="col-11 col-sm-10 col-md-6 justify-content-center">
+        <form class="d-flex my-2 my-md-5" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-light px-4" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+
+    
 
     <div class="row my-4">
       <hr class="border border-light border-2 opacity-75 w-75 mx-auto my-4">
