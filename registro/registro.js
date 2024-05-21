@@ -3,9 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
         enableTime: false,
         dateFormat: "Y-m-d", // hora H:i
         locale: "es"
-        
-         
-        
     });
 });
 
