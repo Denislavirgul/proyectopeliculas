@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   flatpickr("#datetimepicker1", {
     enableTime: false,
-    dateFormat: "Y-m-d",
+    dateFormat: "d-m-Y",
     // hora H:i
     locale: "es"
   });
